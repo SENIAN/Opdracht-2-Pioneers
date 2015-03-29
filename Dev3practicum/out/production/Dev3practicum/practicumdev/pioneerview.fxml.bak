@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="400.0" maxWidth="600.0" prefHeight="377.0" prefWidth="585.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="practicumdev.ListViewMain">
+  <children>
+    <ImageView id="123456789101112131415161718192021" fitHeight="207.53239778415033" fitWidth="165.93243408203125" layoutX="368.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../ImagesPioneers/AlanTuring.jpg" />
+      </image>
+      <image>
+        <Image url="@../ImagesPioneers/BillGates.jpg" />
+      </image>
+      <image>
+        <Image url="@../ImagesPioneers/BobKahn.jpg" />
+      </image>
+      <image>
+        <Image url="@../ImagesPioneers/BobMetcalfe.jpg" />
+      </image>
+      <image>
+        <Image url="@../ImagesPioneers/DennisRitchie.jpg" />
+      </image>
+      <image>
+        <Image url="@../ImagesPioneers/DonaldKnuth.gif" />
+      </image>
+      <image>
+        <Image url="@../ImagesPioneers/DouglasEngelbart.jpg" />
+      </image>
+      <image>
+        <Image url="@../ImagesPioneers/EdsgerDijkstra.jpg" />
+      </image>
+      <image>
+        <Image url="@../ImagesPioneers/JimmyWales.jpg" />
+      </image>
+      <image>
+        <Image url="@../ImagesPioneers/JohnvonNeumann.gif" />
+      </image>
+      <image>
+        <Image url="@../ImagesPioneers/KenThompson.jpg" />
+      </image>
+      <image>
+        <Image url="@../ImagesPioneers/LarryPage.jpg" />
+      </image>
+      <image>
+        <Image url="@../ImagesPioneers/LinusTorvalds.jpg" />
+      </image>
+      <image>
+        <Image url="@../ImagesPioneers/MarkAndreessen.jpg" />
+      </image>
+      <image>
+        <Image url="@../ImagesPioneers/MarkZuckenberg.jpg" />
+      </image>
+      <image>
+        <Image url="@../ImagesPioneers/RichardStallman.jpg" />
+      </image>
+      <image>
+        <Image url="@../ImagesPioneers/SergeyBrin.jpg" />
+      </image>
+      <image>
+        <Image url="@../ImagesPioneers/SteveJobs.jpg" />
+      </image>
+      <image>
+        <Image url="@../ImagesPioneers/TimBerners-Lee.jpg" />
+      </image>
+      <image>
+        <Image url="@../ImagesPioneers/VintCerf.jpg" />
+      </image>
+      <image>
+        <Image url="@../ImagesPioneers/WilliamSockley.jpg" />
+      </image>
+    </ImageView>
+    <Button layoutX="453.0" layoutY="312.0" mnemonicParsing="false" text="Volgende Pioneer" />
+    <Button layoutX="330.0" layoutY="312.0" mnemonicParsing="false" text="Vorige pioneer" />
+  </children>
+</AnchorPane>
