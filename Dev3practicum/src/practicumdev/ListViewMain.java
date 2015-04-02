@@ -9,8 +9,6 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
-
-
 public class ListViewMain extends Application {
     @Override
     public void start(Stage stage) throws Exception {
@@ -20,8 +18,6 @@ public class ListViewMain extends Application {
         stage.setTitle("Pioneers");
         stage.setScene(scene);
         stage.show();
-
-
     }
 
     public static void main(String[] args)  {

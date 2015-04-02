@@ -68,7 +68,6 @@ public class RootViewController {
     }
     @FXML
     private void loadImage()  {
-
         listViewB.setOnMouseClicked(new EventHandler<MouseEvent>() {
             @Override
             public void handle(MouseEvent event) {

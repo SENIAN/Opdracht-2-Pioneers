@@ -20,32 +20,31 @@ public class Pioneer {
     public String getVolledigenaam() {
         return volledigeNaam;
     }
-    public String setVolledigenaam() {
-        return this.volledigeNaam;
+    public void setVolledigenaam(String volledigeNaam) {
+        this.volledigeNaam = volledigeNaam;
     }
     public String getJarenactief() {
         return jarenActief;
     }
-    public String setJarenactief() {
-        return this.jarenActief;
+    public void setJarenactief(String jarenActief) {
+        this.jarenActief = jarenActief;
     }
     public String getUitvinding() {
         return uitvinding;
     }
-    public String setUitvinding() {
-        return this.uitvinding;
+    public void setUitvinding(String uitvinding) {
+        this.uitvinding = uitvinding;
     }
     public String getId() {
         return id;
     }
-    public String setId() {
-        return this.id;
+    public void setId(String id) {
+        this.id = id;
     }
-
     public String getImage() {
         return image;
     }
-    public String setImage() {
-        return this.image;
+    public void setImage(String image) {
+        this.image =image;
     }
 }

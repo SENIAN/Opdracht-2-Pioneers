@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="409.0" maxWidth="600.0" prefHeight="409.0" prefWidth="585.0" visible="true" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Main">
+  <ImageView fitHeight="169.22093002793852" fitWidth="167.27586364746094" layoutX="45.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+    <image>
+      <Image url="@Images/Test1.jpg" />
+    </image>
+  </ImageView>
+  <ImageView fitHeight="154.89361719074196" fitWidth="158.2608642578125" layoutX="375.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+    <image>
+      <Image url="@Images/test2.jpg" />
+    </image>
+  </ImageView>
+  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="52.0" layoutY="209.0" pickOnBounds="true" preserveRatio="true">
+    <image>
+      <Image url="@Images/test2.jpg" />
+    </image>
+  </ImageView>
+  <ImageView fitHeight="158.2608642578125" fitWidth="158.2608642578125" layoutX="383.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true">
+    <image>
+      <Image url="@Images/Test5.jpg" />
+    </image>
+  </ImageView>
+  <TextField fx:id="txtfield1" layoutX="35.0" layoutY="183.0" prefWidth="200.0" />
+  <TextField fx:id="txtfield2" layoutX="35.0" layoutY="367.0" prefWidth="200.0" />
+  <TextField id="txtfield3" fx:id="txtfield4" layoutX="354.0" layoutY="367.0" prefWidth="200.0" />
+  <TextField id="txtfield4" fx:id="txtfield3" layoutX="354.0" layoutY="179.0" prefWidth="200.0" />
+  <Label fx:id="passFail3" layoutX="324.0" layoutY="159.0" prefWidth="53.0" text="Label" visible="false" />
+  <Label fx:id="passFail1" layoutX="191.0" layoutY="159.0" text="Label" visible="false" />
+  <Label fx:id="passFail2" layoutX="191.0" layoutY="343.0" text="Label" visible="false" />
+  <Label fx:id="passFail4" layoutX="336.0" layoutY="343.0" text="Label" visible="false" />
+  <Button fx:id="chkAnswers" layoutX="230.0" layoutY="238.0" mnemonicParsing="false" onMouseClicked="#getAnswers" text="Check antwoorden" />
+  <TextField id="naam" fx:id="naamAchternaam" layoutX="216.0" layoutY="20.0" prefWidth="153.2608642578125" />
+  <TextField fx:id="Patientnummer" layoutX="241.0" layoutY="56.0" prefWidth="103.0" />
+</AnchorPane>
